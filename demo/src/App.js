@@ -2,11 +2,15 @@
  import './App.css';
 
 
- import Counter from "./avishsir/Counter";
+//  import Counter from "./avishsir/Counter";
+import Fetch from "./avishsir/Fetch";
+// import Calculator from "./avishsir/Calculator";
  function App() {
    return (
      <div>
-       <Counter />
+      {/* <Calculator /> */}
+      <Fetch />
+       {/* <Counter /> */}
       
      </div>
    );
